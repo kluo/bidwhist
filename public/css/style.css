@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+}
+
+.container {
+  max-width: 950px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.header {
+  font-size: 50px;
+}
