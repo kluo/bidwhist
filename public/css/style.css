@@ -8,6 +8,10 @@ body {
   font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
 }
 
+p {
+  font-size: 1.1em;
+}
+
 .container {
   max-width: 950px;
   margin: 100px auto;
@@ -35,4 +39,19 @@ body {
 
 .btn:hover, .btn:focus {
   background-color: #009a98;
+}
+
+#rules {
+  margin-top: 100px;
+}
+
+#rules h2 {
+  font-size: 1.6em;
+}
+
+.rules-content {
+  max-width: 600px;
+  margin: 0.8em auto 1em;
+  text-align: left;
+  line-height: 1.4;
 }
