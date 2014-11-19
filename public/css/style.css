@@ -18,8 +18,9 @@ p {
   text-align: center;
 }
 
-.header {
-  font-size: 50px;
+h1 {
+  font-size: 3em;
+  font-weight: normal;
 }
 
 .play-wrapper {
@@ -39,6 +40,12 @@ p {
 
 .btn:hover, .btn:focus {
   background-color: #009a98;
+}
+
+.game-container {
+  display: none;
+  height: 400px;
+  background-color: WhiteSmoke;
 }
 
 #rules {

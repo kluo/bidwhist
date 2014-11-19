@@ -11,10 +11,14 @@
 
   <body>
     <div class="container">
-      <div class="header">Bid Whist</div>
-      <p>Play bid whist online.</p>
+      <header>
+        <h1>Bid Whist</h1>
+        <p>Play bid whist online.</p>
+      </header>
       <div class="play-wrapper">
-	<a class="btn" draggable="false" href="play">Play</a>
+	<a class="btn" draggable="false" href="play" onclick="playClickHandler(this); return false;">Play</a>
+      </div>
+      <div class="game-container">
       </div>
       <div id="rules">
 	<h2>Rules</h2>
@@ -45,6 +49,16 @@
         <p>Created by <a href="http://kluo.github.io/" target="_blank">Kevin Luo</a></p>
       </footer>
     </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+      function playClickHandler(e) {
+          $(e).animate({opacity: 0});
+          $("header").animate({marginTop: '-=25px'});
+          $(".game-container").delay(500).fadeIn();
+          return false;
+      }
+    </script>
   </body>
 
 </html>
