@@ -42,7 +42,7 @@ h1 {
   background-color: #009a98;
 }
 
-.game-container {
+#game-container {
   display: none;
   height: 400px;
   background-color: WhiteSmoke;

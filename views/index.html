@@ -18,7 +18,7 @@
       <div class="play-wrapper">
 	<a class="btn" draggable="false" href="play" onclick="playClickHandler(this); return false;">Play</a>
       </div>
-      <div class="game-container">
+      <div id="game-container">
       </div>
       <div id="rules">
 	<h2>Rules</h2>
@@ -51,11 +51,13 @@
     </div>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/game.js"></script>
     <script>
       function playClickHandler(e) {
           $(e).animate({opacity: 0});
           $("header").animate({marginTop: '-=25px'});
-          $(".game-container").delay(500).fadeIn();
+          var game = new BidwhistGame("game-container");
+          $("#game-container").delay(500).fadeIn();
           return false;
       }
     </script>
