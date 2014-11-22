@@ -48,6 +48,17 @@ h1 {
   background-color: WhiteSmoke;
 }
 
+.card {
+  position: absolute;
+  height: 100px;
+  width: 70px;
+  background-color: Brown;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 5px solid Maroon;
+}
+
 #rules {
   margin-top: 100px;
 }
