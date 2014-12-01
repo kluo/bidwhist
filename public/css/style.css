@@ -102,5 +102,7 @@ h1 {
 }
 
 footer {
-  margin-top: 75px;
+  padding: 25px 0;
+  background-color: WhiteSmoke;
+  text-align: center;
 }
